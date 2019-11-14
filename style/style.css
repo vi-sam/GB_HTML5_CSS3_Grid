@@ -17,7 +17,7 @@ hr {
 
 .header__top {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 420px repeat(3, 1fr);
     align-items: center;
     font-size: 15px;
     font-weight: 700;
@@ -29,7 +29,6 @@ hr {
 .contacts {
     display: grid;
     grid-template-columns: 70px 1fr;
-    border: 1px solid black;
 }
 
 .contacts:last-child {
