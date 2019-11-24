@@ -38,22 +38,26 @@ hr {
     font-weight: 700;
     line-height: 22px;
     color: #6a6a6a;
-    min-height: 110px;}
-    @media screen and (max-width: 1150px) {
-        .header__top {
-            flex-direction: column;
-            align-items: flex-start;
-        }
+    min-height: 110px;
+}
+
+@media screen and (max-width: 1150px) {
+    .header__top {
+        flex-direction: column;
+        align-items: flex-start;
     }
+}
 
 .contacts {
     display: grid;
-    grid-template-columns: 70px 1fr;}
-    @media screen and (max-width: 1150px) {
-        .contacts {
-            margin: 5px 0;
-        }
+    grid-template-columns: 70px 1fr;
+}
+
+@media screen and (max-width: 1150px) {
+    .contacts {
+        margin: 5px 0;
     }
+}
 
 
 @media screen and (max-width: 1150px) {
@@ -92,12 +96,14 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 600px;}
-    @media screen and (max-width: 1150px) {
-        .nav {
-            justify-self: center;
-        }
+    width: 600px;
+}
+
+@media screen and (max-width: 1150px) {
+    .nav {
+        justify-self: center;
     }
+}
 
 
 .social {
@@ -105,13 +111,14 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     justify-self: end;
-    width: 210px;}
-    @media screen and (max-width: 1150px) {
-        .social.social {
-            justify-self: center;
-        }
-    }
+    width: 210px;
+}
 
+@media screen and (max-width: 1150px) {
+    .social.social {
+        justify-self: center;
+    }
+}
 
 .nav__link {
     color: #6c6c6c;
@@ -188,23 +195,27 @@ hr {
     width: 125px;
     height: 25px;
     bottom: 12%;
-    right: 46%;}
-    @media screen and (max-width: 1366px) {
-        .product__topImg {
-            right: 44%;
-        }
+    right: 46%;
+}
+
+@media screen and (max-width: 1366px) {
+    .product__topImg {
+        right: 44%;
     }
+}
 
 /*advantages*/
 
 .advantages {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));}
-    @media screen and (max-width: 1150px) {
-        .advantages {
-            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-        }
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
+@media screen and (max-width: 1150px) {
+    .advantages {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     }
+}
 
 .advantages__item {
     padding: 70px 65px 55px 75px;
@@ -246,4 +257,94 @@ hr {
     font-weight: 400;
     line-height: 30px;
     text-align: center;
+}
+
+/*choose*/
+
+.main__choose {
+    padding: 100px 200px 0 200px;
+}
+
+.choose__title {
+    margin-bottom: 30px;
+    color: #494949;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.choose__subtitle {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    color: #6a6a6a;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 878px;
+}
+
+.choose__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    min-height: 600px;
+    background: url(../img/female.png) center no-repeat;
+
+}
+
+.choose__itemTitle {
+    position: relative;
+    padding-left: 90px;
+    color: #6f6f6e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 75px;
+    ;
+    letter-spacing: -1.82px;
+}
+
+.choose__itemTitle::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.choose__itemTitle--1 {
+    background: url(../img/choose1.png) no-repeat;
+}
+
+.choose__itemTitle--2 {
+    background: url(../img/choose2.png) no-repeat;
+}
+
+.choose__itemTitle--3 {
+    background: url(../img/choose3.png) no-repeat;
+}
+
+.choose__itemTitle--4 {
+    background: url(../img/choose4.png) no-repeat;
+}
+
+.choose__itemText {
+    color: #6a6a6a;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 363px;
+}
+
+.choose__item {
+    padding-top: 80px;
+}
+
+.choose__item {
+    padding-left: 200px;
 }
